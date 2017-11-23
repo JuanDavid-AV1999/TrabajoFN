@@ -15,6 +15,7 @@ Route::group(['namespace'=>'Backend'],function (){
     Route::get('registro','RegistroController@create')->name('registro');
 });
 Route::group(['namespace'=>'Frontend'],function (){
+    //vista Normal
     Route::get('/','WebPageController@index')->name('/');
     Route::get('eventos','WebPageController@eventos')->name('eventos');
     Route::get('cursos','WebPageController@cursos')->name('cursos');
@@ -27,6 +28,23 @@ Route::group(['namespace'=>'Frontend'],function (){
     Route::get('elementoseventos','WebPageController@elementoseventos')->name('elementoseventos');
     //vistas adim
     Route::get('index3','WebPageController@index3')->name('index3');
+    Route::get('publicaciones','WebPageController@publicaciones')->name('publicaciones');
+    Route::get('elementoseventos2','WebPageController@elementoseventos2')->name('elementoseventos2');
+    Route::get('implementosdeportivos','WebPageController@implementosdeportivos')->name('implementosdeportivos');
+    Route::get('registroelementoseventos','WebPageController@registroelementoseventos')->name('registroelementoseventos');
+    Route::get('reservaelementoseventos','WebPageController@reservaelementoseventos')->name('reservaelementoseventos');
+    Route::get('alquilerelementos','WebPageController@alquilerelementos')->name('alquilerelementos');
+    Route::get('implementos','WebPageController@implementos')->name('implementos');
+    Route::get('reservaimplementosdeportivos','WebPageController@reservaimplementosdeportivos')->name('reservaimplementosdeportivos');
+    Route::get('prestamoimplementosdeportivos','WebPageController@prestamoimplementosdeportivos')->name('prestamoimplementosdeportivos');
+    Route::get('registroeventos','WebPageController@registroeventos')->name('registroeventos');
+    Route::get('eventos3','WebPageController@eventos3')->name('eventos3');
+    Route::get('cursos3','WebPageController@cursos3')->name('cursos3');
+    Route::get('programas3','WebPageController@programas3')->name('programas3');
+    Route::get('afiliadosaccion','WebPageController@afiliadosaccion')->name('afiliadosaccion');
+    Route::get('registroafiliadosaccion','WebPageController@registroafiliadosaccion')->name('registroafiliadosaccion');
+    Route::get('registrocursos','WebPageController@registrocursos')->name('registrocursos');
+    Route::get('controlinscripcioncurso','WebPageController@controlinscripcioncurso')->name('controlinscripcioncurso');
 
 
 

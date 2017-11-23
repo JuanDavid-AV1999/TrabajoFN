@@ -7,4 +7,4 @@
 @endsection
 @section('login')
     @include('partes.user')
-    @endsection
+@endsection

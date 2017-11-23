@@ -3,9 +3,11 @@
     @include('partes.navadm')
 @endsection
 @section('conten')
-    @include('partes.alquiler-elements')
+    @include('partes.control-inscription-course')
 @endsection
-
 @section('logo')
     @include('partes.logo')
+@endsection
+@section('login')
+    @include('partes.admin1')
 @endsection

@@ -8,8 +8,8 @@
     <title>Pagina Familiar</title>
 
     <!-- Bootstrap -->
-    <link href="{{asset('css/app.css')}}" rel="stylesheet">
-    <link href="{{asset('css/mycss.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/app.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/mycss.css')}}" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
@@ -82,8 +82,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="{{asset('js/jqueryValidate')}}"></script>
-<script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+<script src="{{asset('/js/app.js')}}"></script>
+<script src="{{asset('/js/jqueryValidate')}}"></script>
+<script src="{{asset('/js/jquery-3.2.1.min.js')}}"></script>
 @yield('script')
 </body>
 </html>

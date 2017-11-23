@@ -2,60 +2,61 @@
     <div class="row">
         <div class="col-md-12">
 
-            <h2>
-                Heading
+            <br><br>
+            <h2 style="text-align: center; font-weight: bold">
+                Publicaciones destacadas
             </h2>
-            <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            </p>
-            <p>
-                <a class="btn" href="#">View details »</a>
-            </p>
+            <br><br>
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img alt="Bootstrap Thumbnail First" src="http://lorempixel.com/output/people-q-c-600-200-1.jpg" />
+                        <img alt="Bootstrap Thumbnail First" src="{{asset('img/deporte.jpg')}}" />
                         <div class="caption">
-                            <h3>
-                                Thumbnail label
+                            <h3 style="text-align: center; font-weight: bold;">
+                                Festival Deportivo
                             </h3>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            <p style="text-align: center">
+                                Los invitamos a nuestro Festival Deportivo 2017, una actividad anual, en donde podemos disfrutar de encuentros deportivos en las diferentes disciplinas, juegos, comidas y mucho más.
                             </p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Action</a>
+                            <p style="text-align: center">
+                                <a class="btn btn-primary" href="{{asset('eventos')}}">Me interesa</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img alt="Bootstrap Thumbnail Second" src="http://lorempixel.com/output/city-q-c-600-200-1.jpg" />
+
+                        <img alt="Bootstrap Thumbnail Second" src="{{asset('img/ingles2.jpg')}}" />
+
                         <div class="caption">
-                            <h3>
-                                Thumbnail label
+                            <h3 style="font-weight: bold; text-align: center">
+                                Cursos de Inglés
                             </h3>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            <p style="text-align: center">
+                                Anímate, aprender inglés es una necesidad, tu puedes hacerlo. Profesores completamente bilingues con experiencia en la enseñanza de este idioma
                             </p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Action</a>
+                            <p style="text-align: center">
+                                <a class="btn btn-primary" href="{{asset('cursos')}}">Me interesa</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img alt="Bootstrap Thumbnail Third" src="http://lorempixel.com/output/sports-q-c-600-200-1.jpg" />
+                        <br><br>
+                        <img alt="Bootstrap Thumbnail Third" src="{{asset('img/bingo.jpg')}}" />
+
                         <div class="caption">
-                            <h3>
-                                Thumbnail label
+                            <h3 style="font-weight: bold; text-align: center">
+                                Gran Bingo !
                             </h3>
                             <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                                Los invitamos a este gran bingo bailable cuya entrada tiene un costo de 5 mil pesos e incluye el cartón del sorteo principal
+                                no te pierdas la gran oportunidad de ganar grandes premios.
                             </p>
-                            <p>
-                                <a class="btn btn-primary" href="#">Action</a>
+                            <p style="text-align: center">
+                                <a class="btn btn-primary" href="{{asset('eventos')}}">Me interesa</a>
                             </p>
                         </div>
                     </div>

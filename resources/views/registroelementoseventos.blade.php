@@ -1,13 +1,13 @@
 @extends('layaut.app')
 @section('nav')
-    @include('partes.nav')
+    @include('partes.navadm')
 @endsection
 @section('conten')
     @include('partes.register-elements-events')
 @endsection
-@section('nav')
-    @include('partes.logo-usericons')
-@endsection
 @section('logo')
     @include('partes.logo')
+@endsection
+@section('login')
+    @include('partes.admin1')
 @endsection

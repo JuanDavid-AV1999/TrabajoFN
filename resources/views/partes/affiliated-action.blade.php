@@ -1,4 +1,4 @@
-<h1>Afiliados a la Junta de Accion Comunal</h1>
+<h1 style="text-align: center">Afiliados a la Junta de Accion Comunal</h1>
 <form class="form-horizontal">
     <fieldset>
 
@@ -44,7 +44,7 @@
     <tbody>
 
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>>
+        <td><input type="checkbox" class="checkthis" /></td>
         <td><input></td>
         <td><input></td>
         <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
@@ -52,7 +52,7 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>>
+        <td><input type="checkbox" class="checkthis" /></td>
         <td><input></td>
         <td><input></td>
         <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
@@ -60,7 +60,7 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>>
+        <td><input type="checkbox" class="checkthis" /></td>
         <td><input></td>
         <td><input></td>
         <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
@@ -68,7 +68,7 @@
     </tr>
 
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>>
+        <td><input type="checkbox" class="checkthis" /></td>
         <td><input></td>
         <td><input></td>
         <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>

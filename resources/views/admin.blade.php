@@ -2,9 +2,9 @@
 @section('nav')
     @include('partes.navadm')
 @endsection
-@section('login')
-    @include('partes.admi')
-@endsection
 @section('logo')
     @include('partes.logo')
+@endsection
+@section('login')
+    @include('partes.admin1')
 @endsection

@@ -48,9 +48,56 @@ class WebPageController extends Controller
     public function index3(){
         return view('index3');
     }
-
-
-
-
+    public function publicaciones(){
+        return view('publicaciones');
+    }
+    public function elementoseventos2(){
+        return view('elementoseventos2');
+    }
+    public function implementosdeportivos(){
+        return view('implementosdeportivos');
+    }
+    public function registroelementoseventos(){
+        return view('registroelementoseventos');
+    }
+    public function reservaelementoseventos(){
+        return view('reservaelementoseventos');
+    }
+    public function alquilerelementos(){
+        return view('alquilerelementos');
+    }
+    public function implementos(){
+        return view('implementos');
+    }
+    public function reservaimplementosdeportivos(){
+        return view('reservaimplementosdeportivos');
+    }
+    public function prestamoimplementosdeportivos(){
+        return view('prestamoimplementosdeportivos');
+    }
+    public function registroeventos(){
+        return view('registroeventos');
+    }
+    public function eventos3(){
+        return view('eventos3');
+    }
+    public function cursos3(){
+        return view('cursos3');
+    }
+    public function programas3(){
+        return view('programas3');
+    }
+    public function afiliadosaccion(){
+        return view('afiliadosaccion');
+    }
+    public function registroafiliadosaccion(){
+        return view('registroafiliadosaccion');
+    }
+    public function registrocursos(){
+        return view('registrocursos');
+    }
+    public function controlinscripcioncurso(){
+        return view('controlinscripcioncurso');
+    }
 
 }

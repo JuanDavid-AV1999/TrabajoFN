@@ -7,7 +7,7 @@
                     <ul class="nav navbar-nav" id="adm2">
 
                         <li class="dropdown">
-                            <a href="" data-toggle="dropdown" class="dropdown-toggle" >Noticias</a>
+                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Noticias</a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="{{asset('index3')}}">Noticias</a>
@@ -23,7 +23,7 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Eventos</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('eventos2')}}">Eventos</a>
+                                    <a href="{{asset('eventos3')}}">Eventos</a>
                                 </li>
                                 <li>
                                     <a href="{{asset('registroeventos')}}">Registrar</a>
@@ -36,13 +36,13 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Cursos</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('cursos')}}">Cursos</a>
+                                    <a href="{{asset('cursos3')}}">Cursos</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('registro-cursos')}}">Registrar</a>
+                                    <a href="{{asset('registrocursos')}}">Registrar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('control-inscripcion-curso')}}">Inscripciones</a>
+                                    <a href="{{asset('controlinscripcioncurso')}}">Inscripciones</a>
                                 </li>
                                 <li>
                                     <a href="{{asset('asistencia-cursos')}}">Asistencia</a>
@@ -55,7 +55,7 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Programas</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('programas')}}">Programas</a>
+                                    <a href="{{asset('programas3')}}">Programas</a>
                                 </li>
                                 <li>
                                     <a href="{{asset('registro-programas')}}">Registrar</a>
@@ -71,16 +71,16 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Implementos</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('implementos-deportivos')}}">Implementos</a>
+                                    <a href="{{asset('implementosdeportivos')}}">Implementos</a>
                                 </li>
                                 <li>
                                     <a href="{{asset('implementos')}}">Registrar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('reserva-implementos-deportivos')}}">Reservar</a>
+                                    <a href="{{asset('reservaimplementosdeportivos')}}">Reservar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('prestamo-implementos-deportivos')}}">Prestar</a>
+                                    <a href="{{asset('prestamoimplementosdeportivos')}}">Prestar</a>
                                 </li>
 
                             </ul>
@@ -90,16 +90,16 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Elementos</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('elementos-eventos')}}">Elementos</a>
+                                    <a href="{{asset('elementoseventos2')}}">Elementos</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('registro-elementos-eventos')}}">Registrar</a>
+                                    <a href="{{asset('registroelementoseventos')}}">Registrar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('reserva-elementos-eventos')}}">Reservar</a>
+                                    <a href="{{asset('reservaelementoseventos')}}">Reservar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('alquiler-elementos')}}">Alquilar</a>
+                                    <a href="{{asset('alquilerelementos')}}">Alquilar</a>
                                 </li>
 
                             </ul>
@@ -109,10 +109,10 @@
                             <a href="" data-toggle="dropdown" class="dropdown-toggle">Afiliados</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('afiliados-accion')}}">Afiliados</a>
+                                    <a href="{{asset('afiliadosaccion')}}">Afiliados</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('registro-afiliados-accion')}}">Registrar</a>
+                                    <a href="{{asset('registroafiliadosaccion')}}">Registrar</a>
                                 </li>
 
                             </ul>
@@ -121,6 +121,7 @@
 
 
                     </ul>
+
 
 
                 </div>

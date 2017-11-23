@@ -1,4 +1,4 @@
-<h1>Control Incripciones a Cursos</h1>
+<h1 style="text-align: center">Control Inscripciones a Cursos</h1>
 <form class="form-horizontal">
     <fieldset>
 
@@ -9,6 +9,7 @@
             <label class="col-md-4 control-label" for="fn">Curso</label>
             <div class="col-md-4">
                 <input id="fn" name="fn" type="text" placeholder="Curso" class="form-control input-md" required="">
+
                 <button id="submit" name="search" type="search" class="btn btn-success">Consultar</button>
             </div>
         </div>

@@ -11,38 +11,17 @@
                     </li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="item">
-                        <img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                First Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
-                    </div>
                     <div class="item active">
-                        <img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Second Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
+                        <img alt="Carousel Bootstrap First" src="{{asset('img/deporte.jpg')}}" width="675px" id="car" />
+
                     </div>
                     <div class="item">
-                        <img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
-                        <div class="carousel-caption">
-                            <h4>
-                                Third Thumbnail label
-                            </h4>
-                            <p>
-                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                            </p>
-                        </div>
+                        <img alt="Carousel Bootstrap Second" src="{{asset('img/bingo.jpg')}}"  width="845px" id="carr"/>
+
+                    </div>
+                    <div class="item">
+                        <img alt="Carousel Bootstrap Third" src="{{asset('img/ingles.jpg')}}" width="1900px"/>
+
                     </div>
                 </div> <a class="left carousel-control" href="#carousel-574389" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-574389" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>

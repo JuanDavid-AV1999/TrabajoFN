@@ -1,6 +1,6 @@
 @extends('layaut.app')
 @section('nav')
-    @include('partes.nav')
+    @include('partes.navadm')
 @endsection
 @section('conten')
     @include('partes.publications')
@@ -8,6 +8,6 @@
 @section('logo')
     @include('partes.logo')
 @endsection
-@section('nav')
-    @include('partes.logo-usericons')
+@section('login')
+    @include('partes.admin1')
 @endsection
