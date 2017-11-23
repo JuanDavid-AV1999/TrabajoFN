@@ -1,0 +1,16 @@
+@extends('layaut.app')
+@section('nav')
+    @include('partes.noafi')
+@endsection
+@section('conten')
+    @include('partes.elements-events')
+@endsection
+@section('nav')
+    @include('partes.logo-usericons')
+@endsection
+@section('logo')
+    @include('partes.logo')
+@endsection
+@section('login')
+    @include('partes.user')
+@endsection
