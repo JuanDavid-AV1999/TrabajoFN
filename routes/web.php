@@ -13,6 +13,7 @@
 Route::group(['namespace'=>'Backend'],function (){
     Route::post('registrar','RegistroController@store')->name('registrar');
     Route::get('registro','RegistroController@create')->name('registro');
+    Route::get('afiliadosaccion','GeneroController@index')->name('afiliadosaccion');
 });
 Route::group(['namespace'=>'Frontend'],function (){
     //vista Normal
@@ -41,10 +42,12 @@ Route::group(['namespace'=>'Frontend'],function (){
     Route::get('eventos3','WebPageController@eventos3')->name('eventos3');
     Route::get('cursos3','WebPageController@cursos3')->name('cursos3');
     Route::get('programas3','WebPageController@programas3')->name('programas3');
-    Route::get('afiliadosaccion','WebPageController@afiliadosaccion')->name('afiliadosaccion');
-    Route::get('registroafiliadosaccion','WebPageController@registroafiliadosaccion')->name('registroafiliadosaccion');
     Route::get('registrocursos','WebPageController@registrocursos')->name('registrocursos');
     Route::get('controlinscripcioncurso','WebPageController@controlinscripcioncurso')->name('controlinscripcioncurso');
+    Route::get('asistenciacursos','WebPageController@asistenciacursos')->name('asistenciacursos');
+    Route::get('registroprogramas','WebPageController@registroprogramas')->name('registroprogramas');
+    Route::get('inscripcionesprogramas','WebPageController@inscripcionesprogramas')->name('inscripcionesprogramas');
+
 
 
 

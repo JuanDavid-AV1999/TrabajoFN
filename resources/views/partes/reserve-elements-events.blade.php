@@ -2,8 +2,8 @@
     <fieldset>
 
         <!-- Form Name -->
-        <legend style="text-align: center">Reserva de elementos para eventos</legend>
-
+        <legend style="text-align: center"><h2>Reserva de elementos para eventos</h2></legend>
+        <br>
 
         <!-- Select Basic -->
         <div class="form-group">
@@ -23,7 +23,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="selectbasic">Seleccione cantidad</label>
             <div class="col-md-4">
-                <input type="number" placeholder="1">
+                <input type="number" placeholder="    cantidad">
             </div>
         </div>
 
@@ -51,7 +51,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="selectbasic">Valor alquiler</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="fn" name="fn" type="text" placeholder=" Valor" class="form-control input-md" required="">
             </div>
         </div>
 
@@ -61,21 +61,23 @@
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
                 <a id="submit" name="submit" class="btn btn-primary" href="{{asset('')}}">Agregar</a>
-                <a id="submit" name="submit" class="btn btn-primary" href="{{asset('')}}">Cancelar</a>
+                <a id="submit" name="submit" class="btn btn-default" href="{{asset('')}}">Cancelar</a>
 
             </div>
         </div>
 
     </fieldset>
 </form>
-
+<br>
+<br>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <div class="jumbotron">
 
-
+                <legend style="text-align: center"><h2>Datos de reserva</h2></legend>
+                <br>
 
                 <div class="container-fluid">
                     <div class="row">
@@ -87,7 +89,15 @@
                                         <div class="form-group">
 
                                             <label for="exampleInputEmail1">
-                                                Implementos
+                                                Elementos
+                                            </label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" disabled/>
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <label for="exampleInputEmail1">
+                                                Total a pagar
                                             </label>
                                             <input type="text" class="form-control" id="exampleInputEmail1" disabled/>
                                         </div>
@@ -113,36 +123,17 @@
                                             <input type="text" class="form-control" id="exampleInputEmail1" disabled/>
                                         </div>
 
-
                                     </form>
 
                                 </div>
+
+                                <a id="jll" name="submit" class="col-md-3 btn btn-primary" href="{{asset('')}}">Reservar</a>
+
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-
-
-                            <form role="form" class="form-inline">
-                                <div class="form-group">
-
-                                    <label for="exampleInputEmail1">
-                                        Email address
-                                    </label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" disabled/>
-                                </div>
-                            </form>
-
-
-
             </div>
         </div>
     </div>
 </div>
-<a id="submit" name="submit" class="btn btn-primary" href="{{asset('')}}">Reservar</a>

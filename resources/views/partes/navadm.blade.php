@@ -45,7 +45,7 @@
                                     <a href="{{asset('controlinscripcioncurso')}}">Inscripciones</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('asistencia-cursos')}}">Asistencia</a>
+                                    <a href="{{asset('asistenciacursos')}}">Asistencia</a>
                                 </li>
 
                             </ul>
@@ -58,10 +58,10 @@
                                     <a href="{{asset('programas3')}}">Programas</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('registro-programas')}}">Registrar</a>
+                                    <a href="{{asset('registroprogramas')}}">Registrar</a>
                                 </li>
                                 <li>
-                                    <a href="{{asset('inscripciones-programas')}}">Inscripciones</a>
+                                    <a href="{{asset('inscripcionesprogramas')}}">Inscripciones</a>
                                 </li>
 
                             </ul>
@@ -106,14 +106,16 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Afiliados</a>
+                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Personas</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{asset('afiliadosaccion')}}">Afiliados</a>
+                                    <a href="{{asset('afiliadosaccion')}}">Genero</a>
                                 </li>
                                 <li>
                                     <a href="{{asset('registroafiliadosaccion')}}">Registrar</a>
                                 </li>
+
+
 
                             </ul>
                         </li>

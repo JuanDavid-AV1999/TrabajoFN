@@ -5,13 +5,14 @@
             <br>
             <div class="jumbotron">
                 <h2 style="text-align: center">
-                    Evento 1
+                    Festival Deportivo
                 </h2>
-                <br>
-                <p>Descripción:</p>
+                <br><br>
+                <p style="white-space: pre">Descripción:       Los invitamos a nuestro Festival Deportivo 2017, una actividad anual, en donde podemos disfrutar de
+                    encuentros deportivos en las diferentes disciplinas, juegos, comidas y mucho más.</p>
                 <p>Fecha:</p>
-                <p>Fecha inicio:</p>
-                <p>Fecha fin:</p>
+                <p>Hora inicio:</p>
+                <p>Hora fin:</p>
                 <br>
 
                 <p>
@@ -20,13 +21,14 @@
             </div>
             <div class="jumbotron">
                 <h2 style="text-align: center">
-                    Evento 2
+                    Curso de Inglés
                 </h2>
-                <br>
-                <p>Descripción:</p>
+                <br><br>
+                <p style="white-space: pre">Descripción:       Anímate, aprender inglés es una necesidad, tu puedes hacerlo. Profesores completamente bilingues
+                    con experiencia en la enseñanza de este idioma</p>
                 <p>Fecha:</p>
-                <p>Fecha inicio:</p>
-                <p>Fecha fin:</p>
+                <p>Hora inicio:</p>
+                <p>Hora fin:</p>
                 <br>
 
                 <p>
@@ -35,13 +37,14 @@
             </div>
             <div class="jumbotron">
                 <h2 style="text-align: center">
-                    Evento 3
+                    Gran Bingo
                 </h2>
-                <br>
-                <p>Descripción:</p>
+                <br><br>
+                <p style="white-space: pre">Descripción:       Los invitamos a este gran bingo bailable cuya entrada tiene un costo de 5 mil pesos e incluye el cartón
+                    del sorteo principal.</p>
                 <p>Fecha:</p>
-                <p>Fecha inicio:</p>
-                <p>Fecha fin:</p>
+                <p>Hora inicio:</p>
+                <p>Hora fin:</p>
                 <br>
 
                 <p>

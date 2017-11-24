@@ -1,50 +1,61 @@
-<h1>Elementos para Eventos</h1>
+<br>
+<br>
 <!-- State input-->
-<div class="form-group">
-    <label class="col-md-4 control-label" placeholder="Seleccione" for="fn">Estado del Elemento</label>
-    <select>
-        <option value="Disponible">Seleccione</option>
-        <option value="Disponible">Mesas</option>
-        <option value="No Disponible">Listar Todo</option>
-    </select>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <legend style="text-align: center"><h2>Elementos para eventos</h2></legend>
+                        <br>
+                        <br>
+
+
+                        <div class="form-group">
+                            <label class="col-md-7" for="fn" style="text-align: right; font-size: large">
+                                Seleccione el tipo de implemento que desea consultar
+                            </label>
+                            <select class="col-md-2" style="font-size: large">
+                                <option value="Disponible">Seleccione</option>
+                                <option value="Disponible">Carpas</option>
+                                <option value="Disponible">Sillas</option>
+                                <option value="Disponible">Mesas</option>
+                                <option value="Disponible">Listar todos</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
+
+<br>
+<br>
 <table id="mytable" class="table table-bordred table-striped">
     <thead>
 
-    <th><input type="checkbox" id="checkall" /></th>
-    <th>Referencia</th>
-    <th>Elemento</th>
-    <th>Cantidad Total</th>
-    <th>Editar</th>
-    <th>Eliminar</th>
+    <th style="text-align: center"><input type="checkbox" id="checkall" /></th>
+    <th style="text-align: center">Referencia</th>
+    <th style="text-align: center">Elemento</th>
+    <th style="text-align: center">Cantidad Total</th>
+    <th style="text-align: center">Editar</th>
+    <th style="text-align: center">Eliminar</th>
     </thead>
     <tbody>
 
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
-    </tr>
-
-    <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
-    </tr>
-
-    <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
+        <td style="text-align: center"><input type="checkbox" class="checkthis" /></td>
+        <td style="text-align: center"><input></td>
+        <td style="text-align: center"><input></td>
+        <td style="text-align: center"><input></td>
+        <td style="text-align: center"><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+        <td style="text-align: center"><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
     </tr>
 
     </tbody>

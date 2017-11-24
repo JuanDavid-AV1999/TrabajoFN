@@ -87,17 +87,19 @@ class WebPageController extends Controller
     public function programas3(){
         return view('programas3');
     }
-    public function afiliadosaccion(){
-        return view('afiliadosaccion');
-    }
-    public function registroafiliadosaccion(){
-        return view('registroafiliadosaccion');
-    }
     public function registrocursos(){
         return view('registrocursos');
     }
     public function controlinscripcioncurso(){
         return view('controlinscripcioncurso');
     }
-
+    public function asistenciacursos(){
+        return view('asistenciacursos');
+    }
+    public function registroprogramas(){
+        return view('registroprogramas');
+    }
+    public function inscripcionesprogramas(){
+        return view('inscripcionesprogramas');
+    }
 }

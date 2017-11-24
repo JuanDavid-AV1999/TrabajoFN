@@ -19,14 +19,6 @@
             </div>
         </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">Contenido</label>
-            <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="Contenido" class="form-control input-md" required="">
-            </div>
-        </div>
-
         <!-- date initial input-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Fecha Inicio Publicación</label>
@@ -59,12 +51,20 @@
             </div>
         </div>
 
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fn">Contenido</label>
+            <div class="col-md-4">
+                <textarea id="fn" name="fn" type="text" placeholder="Contenido" class="form-control input-md" required=""></textarea>
+            </div>
+        </div>
+
         <!-- Button -->
         <div class="form-group">
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
-                <button id="submit" name="submit" class="btn btn-success">Enviar</button>
-                <input id="fn" name="fn" type="reset" class="btn btn-danger">
+                <button id="submit" name="submit" class="btn btn-primary">Enviar</button>
+                <input id="fn" name="fn" type="reset" class="btn btn-default">
             </div>
         </div>
 

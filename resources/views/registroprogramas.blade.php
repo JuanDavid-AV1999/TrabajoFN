@@ -1,0 +1,13 @@
+@extends('layaut.app')
+@section('nav')
+    @include('partes.navadm')
+@endsection
+@section('conten')
+    @include('partes.register-programs')
+@endsection
+@section('logo')
+    @include('partes.logo')
+@endsection
+@section('login')
+    @include('partes.admin1')
+@endsection

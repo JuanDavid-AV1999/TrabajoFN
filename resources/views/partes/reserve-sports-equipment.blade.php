@@ -23,7 +23,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="selectbasic">Seleccione cantidad</label>
             <div class="col-md-4">
-                <input type="number" placeholder="1">
+                <input type="number" placeholder="    cantidad">
             </div>
         </div>
 

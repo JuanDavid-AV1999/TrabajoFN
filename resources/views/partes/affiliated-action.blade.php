@@ -1,97 +1,32 @@
-<h1 style="text-align: center">Afiliados a la Junta de Accion Comunal</h1>
-<form class="form-horizontal">
-    <fieldset>
-
-        <!-- Form Name -->
-        <legend style="text-align: center">Consultar Afiliados</legend>
-        <!-- text input -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">Nombre</label>
-            <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="Curso" class="form-control input-md" required="">
-            </div>
-        </div>
-
-        <!-- document input -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">Documento</label>
-            <div class="col-md-4">
-                <input id="fn" name="fn" type="number" placeholder="Documento" class="form-control input-md" required="">
-            </div>
-        </div>
-
-        <!-- Button -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="submit"></label>
-            <div class="col-md-4">
-                <button id="submit" name="search" type="search" class="btn btn-success">Consultar</button>
-                <button id="fn" name="Listar Todo" type="search" class="btn btn-danger">Listar Todo</button>
-            </div>
-        </div>
-    </fieldset>
-</form>
-
-<table id="mytable" class="table table-bordred table-striped">
-    <h2>Resultados</h2>
+<h1 style="text-align: center">Cambio de genero</h1>
+<div class="container jumbotron " style="margin: auto ">
+<table class="table">
     <thead>
+    <tr >
+        <th class="text-center">ID</th>
+        <th>Genero</th>
 
-    <th><input type="checkbox" id="checkall"></th>
-    <th>Nombre</th>
-    <th>Documento</th>
-    <th>Editar</th>
-    <th>Eliminar</th>
+    </tr>
     </thead>
     <tbody>
-
+    @foreach($gen as $value)
     <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
+        <td class="text-center">{{$value->id}}</td>
+        <td>{{$value->genero}}</td>
+        <td class="td-action text-right">
+            <button type="button" rel="tooltip" title="View profile" class="btn btn-info btn-simple btn-xs">
+                <i class="fa fa-user"></i>
+            </button>
+            <button type="button" rel="tooltip" title="Editar" class="btn btn-success btn-simple btn-xs">
+                <i class="fa fa-edit"></i>
+            </button>
+            <button type="button" rel="tooltip" title="borrar" class="btn btn-danger btn-simple btn-xs">
+                <i class="fa fa-times"></i>
+            </button>
+        </td>
     </tr>
-
-    <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
-    </tr>
-
-    <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
-    </tr>
-
-    <tr>
-        <td><input type="checkbox" class="checkthis" /></td>
-        <td><input></td>
-        <td><input></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-info btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-ok"></span></button></p></td>
-        <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-remove"></span></button></p></td>
-    </tr>
-
+        @endforeach
     </tbody>
 </table>
-<script>
-    $(document).ready(function(){
-        $("#mytable #checkall").click(function () {
-            if ($("#mytable #checkall").is(':checked')) {
-                $("#mytable input[type=checkbox]").each(function () {
-                    $(this).prop("checked", true);
-                });
 
-            } else {
-                $("#mytable input[type=checkbox]").each(function () {
-                    $(this).prop("checked", false);
-                });
-            }
-        });
-
-        $("[data-toggle=tooltip]").tooltip();
-    });
-</script>
+</div>

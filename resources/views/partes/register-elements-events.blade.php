@@ -11,14 +11,6 @@
             </div>
         </div>
 
-        <!-- date initial input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">Fecha Reserva</label>
-            <div class="col-md-4">
-                <input id="fn" name="fn" type="date" class="form-control input-md" required="">
-            </div>
-        </div>
-
         <!-- Text input-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Tamaño</label>
@@ -39,18 +31,20 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Valor Unitario</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="number" placeholder="Valor Unitario" class="form-control input-md" required="">
+                <input id="fn" name="fn" type="text" placeholder="Valor Unitario" class="form-control input-md" required="">
             </div>
         </div>
 
         <!-- State input-->
         <div class="form-group">
             <label class="col-md-4 control-label" placeholder="Seleccione" for="fn">Estado del Elemento</label>
-            <select>
-                <option value="Disponible">Seleccione</option>
-                <option value="Disponible">Disponible</option>
-                <option value="No Disponible">No Disponible</option>
-            </select>
+            <div class="col-md-4">
+                <select id="selectbasic" name="selectbasic" class="form-control input-md">
+                    <option value="Disponible">Seleccione</option>
+                    <option value="Disponible">Disponible</option>
+                    <option value="No Disponible">No Disponible</option>
+                </select>
+            </div>
         </div>
 
         <!-- time initial input-->
@@ -63,9 +57,9 @@
 
         <!-- Value input-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">Valor Unitario del Alquiler</label>
+            <label class="col-md-4 control-label" for="fn">Valor del Alquiler</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="number" placeholder="Valor" class="form-control input-md" required="">
+                <input id="fn" name="fn" type="text" placeholder="Valor" class="form-control input-md" required="">
             </div>
         </div>
 
@@ -73,8 +67,8 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
-                <button id="submit" name="submit" class="btn btn-success">Enviar</button>
-                <input id="fn" name="fn" type="reset" class="btn btn-danger">
+                <button id="submit" name="submit" class="btn btn-primary">Enviar</button>
+                <input id="fn" name="fn" type="reset" class="btn btn-default">
             </div>
         </div>
 

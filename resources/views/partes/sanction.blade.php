@@ -15,7 +15,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Documento</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="number" placeholder="Documento" class="form-control input-md">
+                <input id="fn" name="fn" type="text" placeholder="Documento" class="form-control input-md">
             </div>
         </div>
 
@@ -23,7 +23,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Multa a pagar</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="number" class="form-control input-md" required="">
+                <input id="fn" name="fn" type="text" class="form-control input-md" required="">
             </div>
         </div>
 
@@ -39,7 +39,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Observaciones</label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="text" class="form-control input-md" required="">
+                <textarea id="fn" name="fn" type="text" class="form-control input-md" required=""></textarea>
             </div>
         </div>
 
@@ -47,8 +47,8 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
-                <button id="submit" name="submit" class="btn btn-success">Registrar</button>
-                <input id="fn" name="fn" type="reset" class="btn btn-danger">
+                <button id="submit" name="submit" class="btn btn-primary">Registrar</button>
+                <input id="fn" name="fn" type="reset" class="btn btn-default">
             </div>
         </div>
 
